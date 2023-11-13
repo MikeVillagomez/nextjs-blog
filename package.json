@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
@@ -8,7 +9,8 @@
     "part-3": "playwright test assets-metadata-css.spec.js",
     "part-4": "playwright test pre-rendering-data-fetching.spec.js",
     "part-5": "playwright test dynamic-routes.spec.js",
-    "part-6": "playwright test api-routes.spec.js"
+    "part-6": "playwright test api-routes.spec.js",
+    "export": "next build && next export"
   },
   "dependencies": {
     "buid": "^0.3.1",
